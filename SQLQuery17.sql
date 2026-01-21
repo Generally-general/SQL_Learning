@@ -5,8 +5,8 @@
 
 SELECT
 	country,
-	(SUM(score) / COUNT(id)) AS average_score
+	AVG(score) AS average_score
 FROM customers
 WHERE score != 0
 GROUP BY country
-HAVING (SUM(score) / COUNT(id)) > 430
+HAVING AVG(score) > 430
