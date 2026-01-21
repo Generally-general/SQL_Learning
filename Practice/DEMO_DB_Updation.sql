@@ -1,7 +1,7 @@
 
 
 
-/* SELECT *
+SELECT *
 FROM users
 
 INSERT INTO users (id, first_name, middle_name, last_name, date_of_birth, email, phone)
@@ -11,7 +11,7 @@ VALUES
 	(3, 'Andreas', 'Sem', 'DSouza', '2001-04-29', 'andreas@gmail.com', '9978290019'),
 	(4, 'James', NULL, 'Williams', NULL, 'james@gmail.com', '8783928492')
 
-*/
+
 
 SELECT *
 FROM users
