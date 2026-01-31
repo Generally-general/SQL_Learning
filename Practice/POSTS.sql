@@ -25,3 +25,5 @@ SELECT
 FROM posts AS p
 INNER JOIN users AS u
 ON u.id = p.user_id
+
+DROP TABLE posts;

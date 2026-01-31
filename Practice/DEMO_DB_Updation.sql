@@ -4,12 +4,12 @@
 SELECT *
 FROM users
 
-INSERT INTO users (id, first_name, middle_name, last_name, date_of_birth, email, phone)
+INSERT INTO users (first_name, middle_name, last_name, date_of_birth, email, phone)
 VALUES
-	(1, 'Pranjal', NULL, 'Kumar', '2004-09-16', 'kumarpranjal4@gmail.com', '9451891436'),
-	(2, 'Arpita', 'Mallikarjun', 'Patil', '2005-03-27', 'arpitampatil27@gmail.com', '8624805984'),
-	(3, 'Andreas', 'Sem', 'DSouza', '2001-04-29', 'andreas@gmail.com', '9978290019'),
-	(4, 'James', NULL, 'Williams', NULL, 'james@gmail.com', '8783928492')
+	('Pranjal', NULL, 'Kumar', '2004-09-16', 'kumarpranjal4@gmail.com', '9451891436'),
+	('Arpita', 'Mallikarjun', 'Patil', '2005-03-27', 'arpitampatil27@gmail.com', '8624805984'),
+	('Andreas', 'Sem', 'DSouza', '2001-04-29', 'andreas@gmail.com', '9978290019'),
+	('James', NULL, 'Williams', NULL, 'james@gmail.com', '8783928492')
 
 
 

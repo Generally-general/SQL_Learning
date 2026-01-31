@@ -1,7 +1,7 @@
 
 
 CREATE TABLE users (
-	id INT PRIMARY KEY,
+	id INT IDENTITY(1, 1) PRIMARY KEY,
 	first_name VARCHAR(50) NOT NULL,
 	middle_name VARCHAR(50),
 	last_name VARCHAR(50) NOT NULL,
@@ -11,3 +11,5 @@ CREATE TABLE users (
 )
 
 SELECT * FROM users
+
+DROP TABLE users;
